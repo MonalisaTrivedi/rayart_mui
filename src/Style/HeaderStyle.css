@@ -1,0 +1,40 @@
+.nav_menu{ 
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+}
+.nav_menu li{
+    margin: 0px 20px;
+}
+.nav_menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.mobile_nav li{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.home{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product_card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.client_card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.button{
+    text-decoration: none;
+    font-weight:bold;
+    color: beige;
+}
